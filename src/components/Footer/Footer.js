@@ -8,7 +8,9 @@ const Footer = () => {
     const view = `
         <span class="footerContainer">
         <img src="${pk1}" alt="Charizard">
+        <a href="#home">
         <img src="${logoPK}" alt="Logo">
+        </a>
         <span class="container-Redes"><a href="#error404">Nuestras Redes</a>
         <img src="${redes}" alt="redes">
         </span>
