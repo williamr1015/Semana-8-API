@@ -1,12 +1,21 @@
 .nav {
     height: 8vh;
-    background-color: rgb(47, 146, 97);
+    background: linear-gradient(to right, #2c539e 10%, #fff547 17%, #2c539e 25%, #fff547 49%, #2c539e 80%, #fff547 86%, #2c539e 94%);
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding: 10px 50px 10px 50px;
     gap: 20px;
+    justify-content: space-between;
+}
+
+.nav img {
+    width: 150px;
+    border-radius: 25px;
 }
 
 .nav>a {
     color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Otomanopee One', sans-serif, ;
 }

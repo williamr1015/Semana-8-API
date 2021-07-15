@@ -6,6 +6,5 @@
 
 body {
     font-family: 'Otomanopee One', sans-serif, 'Source Code Pro', monospace, 'Zen Loop', cursive;
-    background: linear-gradient(45deg, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
-    background-repeat: no-repeat;
+    min-width: 450px;
 }

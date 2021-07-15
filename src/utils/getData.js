@@ -1,8 +1,8 @@
-const URI = 'https://api.jikan.moe/v3/search/anime?q=';
+const URI = 'https://api.pokemontcg.io/v2/cards?q=name:';
 
-const getData = async(anime) => {
+const getData = async(Pokemon) => {
 
-    let URL_SEARCH = `${URI}${anime}`;
+    let URL_SEARCH = `${URI}${Pokemon}`;
     console.log(`URL para ser consultada por el API: ${URL_SEARCH}`);
     try {
         const response = await fetch(URL_SEARCH);
