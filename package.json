@@ -4,7 +4,8 @@
     "description": "Proyecto API de version libre ",
     "main": "src/app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "webpack --mode production",
+        "start": "webpack server --open --mode development"
     },
     "keywords": [
         "API",
