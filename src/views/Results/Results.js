@@ -1,5 +1,5 @@
 import "./Results.css";
-import getData from "../../util/getData";
+import getData from "../../utils/getData";
 
 const Results = async() => {
 
