@@ -9,7 +9,7 @@
 .container-Search img {
     width: 100hv;
     height: 35vw;
-    margin-bottom: -140px;
+    margin-bottom: -135px;
 }
 
 .search {
@@ -44,9 +44,7 @@
 .button-Search {
     width: 100px;
     height: 30px;
-}
-
-.button-Search-all {
-    width: 150px;
-    height: 30px;
+    border-radius: 20px;
+    box-shadow: #2c539e 2px 3px;
+    background-color: #fff547;
 }
