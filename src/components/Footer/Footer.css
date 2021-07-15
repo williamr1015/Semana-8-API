@@ -1,0 +1,24 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #2c539e 10%, #fff547 17%, #2c539e 25%, #fff547 49%, #2c539e 80%, #fff547 86%, #2c539e 94%);
+}
+
+.footerContainer img {
+    width: 200px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.footerContainer a {
+    align-self: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.container-Redes {
+    display: flex;
+    flex-direction: column;
+}

@@ -16,8 +16,8 @@ const Search = () => {
     `;
 
     document.addEventListener('click', () => {
-        const userSearch = document.getElementById("input-Search").value;
-        localStorage.setItem('userSearch', userSearch);
+        const Search_user = document.getElementById("input-Search").value;
+        localStorage.setItem('userSearch', Search_user);
     });
 
     return view;
