@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Source+Code+Pro:wght@400;700&family=Zen+Loop&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Otomanopee One', sans-serif, 'Source Code Pro', monospace, 'Zen Loop', cursive;
+    min-width: 450px;
+}
