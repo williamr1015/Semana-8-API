@@ -1,0 +1,25 @@
+.Error404 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: linear-gradient(to right, #2c539e 10%, #fff547 17%, #2c539e 25%, #fff547 49%, #2c539e 80%, #fff547 86%, #2c539e 94%);
+}
+
+.Error404 h1 {
+    font-size: 6rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.Error404 h3 {
+    font-size: 4rem;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: white;
+}
+
+.Error404 img {
+    width: 80vh;
+    border-radius: 40px;
+    margin: 0 auto;
+}

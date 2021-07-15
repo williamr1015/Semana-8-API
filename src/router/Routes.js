@@ -6,11 +6,13 @@ import Footer from "../components/Footer/Footer";
 // Views
 import Homepage from "../views/HomePage/HomePage";
 import Results from "../views/Results/Results";
+import Error404 from "../views/Error404/Error404";
 
 const routes = {
     '': Homepage,
     '#home': Homepage,
-    '#results': Results
+    '#results': Results,
+    '#error404': Error404
 };
 
 const router = async(route) => {

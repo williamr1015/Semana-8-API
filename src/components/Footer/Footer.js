@@ -9,7 +9,7 @@ const Footer = () => {
         <span class="footerContainer">
         <img src="${pk1}" alt="Charizard">
         <img src="${logoPK}" alt="Logo">
-        <span class="container-Redes"><a href="#">Nuestras Redes</a>
+        <span class="container-Redes"><a href="#error404">Nuestras Redes</a>
         <img src="${redes}" alt="redes">
         </span>
         </span>
