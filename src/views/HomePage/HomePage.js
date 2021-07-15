@@ -1,4 +1,4 @@
-import "./homepage.css";
+import "./HomePage.css";
 import Search from "../../components/Search";
 const Homepage = () => {
     const view = `

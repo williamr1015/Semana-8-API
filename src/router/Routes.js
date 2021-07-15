@@ -1,10 +1,10 @@
 //Componentes
-import Header from "../components/Header";
-import Nav from "../components/Nav";
+import Header from "../components/Header/Header";
+import Nav from "../components/Nav/Nav";
 
 // Views
-import Homepage from "../views/HomePage";
-import Results from "../views/Results";
+import Homepage from "../views/HomePage/HomePage";
+import Results from "../views/Results/Results";
 
 const routes = {
     '': Homepage,
@@ -16,13 +16,13 @@ const router = async(route) => {
 
     console.log(route);
     //Components
-    const header = document.querySelector('#header');
+    const header = document.querySelector('#Header');
     header.innerHTML = await Header();
-    const nav = document.querySelector('#nav');
+    const nav = document.querySelector('#Nav');
     nav.innerHTML = await Nav();
 
     //Views
-    const container = document.querySelector('#container');
+    const Main = document.querySelector('#Main');
     let render = routes[route] ? routes[route] : Homepage;
     container.innerHTML = await render();
 }

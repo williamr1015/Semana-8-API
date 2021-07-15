@@ -1,6 +1,5 @@
-import router from "./router";
-import styles from "./assets/css/index.css"
-
+import router from "./router/Routes";
+import "./css/index.css"
 // Window Load
 // Window Load
 window.addEventListener("load", router(window.location.hash));

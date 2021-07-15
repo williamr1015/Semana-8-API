@@ -1,4 +1,4 @@
-import "./nav.css";
+import "./Nav.css";
 const Nav = () => {
     const view = `
             <a href="#home">Inicio</a>
