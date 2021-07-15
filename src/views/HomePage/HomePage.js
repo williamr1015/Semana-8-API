@@ -1,5 +1,5 @@
 import "./HomePage.css";
-import Search from "../../components/Search";
+import Search from "../../components/Search/Search";
 const Homepage = () => {
     const view = `
           <div class="container--homepage">

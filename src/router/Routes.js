@@ -24,7 +24,7 @@ const router = async(route) => {
     //Views
     const Main = document.querySelector('#Main');
     let render = routes[route] ? routes[route] : Homepage;
-    container.innerHTML = await render();
+    Main.innerHTML = await render();
 }
 
 export default router;
